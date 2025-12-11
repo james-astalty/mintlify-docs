@@ -6,6 +6,113 @@ title: "New file"
 
 The Scheduling Settings page lets you configure key options that affect how scheduling works in your organisation. Here, you can control requirements such as whether a case note must be completed before clocking out, and set how shift approvals are handled, either automatically (including with tolerances) or manually. Over time, additional settings will be added to this section.
 
-To access this page, click the [settings](/guide/getting-started/create-an-account) wheel on the left-hand menu, select Scheduling. You can access this page [**here**](https://app.astalty.com.au/settings/scheduling). To make adjustments, select the Edit button in the top right corner.
+To access this page, click the settings wheel on the left-hand menu, select Scheduling. You can access this page [**here**](https://app.astalty.com.au/settings/scheduling). To make adjustments, select the Edit button in the top right corner.
 
-![image.png](/images/image.png)
+## Payroll Platforms
+
+Select your preferred payroll platform.
+
+## Managing Scheduling Behaviours
+
+![Scheduling Settings 2 Pn](/images/scheduling-settings-2.png)
+
+### Note Required on Clock Out
+
+When this setting is enabled, support workers cannot clock out until they have completed a case note for their support. This is useful for organisations that want to ensure case notes are recorded immediately after each shift.
+
+To enable this behaviour, tick the **Note Required on Clock Out** checkbox.
+
+### Participant Sign Off Required
+
+Use the 'Participant Sign Off Required' behaviour if participants must sign off on the support when the Support Worker clocks out.
+
+To enable this behaviour, tick the **Participant Sign Off Required** checkbox.
+
+### Location Data Required
+
+Use the 'Location Data Required' behaviour if a support worker device must share their location when recording clock in/out and travels.
+
+To enable this behaviour, tick the **Location Data Required** checkbox.
+
+### Multi-Timezone Scheduling
+
+Use the 'Multi-Timezone Scheduling' behaviour if support workers need to be scheduled across different timezones.
+
+To enable this behaviour, tick the **Multi-Timezone Scheduling** checkbox.
+
+## Managing Push Notifications
+
+![Scheduling Notifications Pn](/images/scheduling-notifications.png)
+
+### Enabling Notifications on the Astalty App
+
+Push notifications keep support workers up to date by alerting them whenever changes are made to their shifts. These settings can be managed in the **Scheduling Settings**.
+
+image
+
+- To **disable notifications**, leave the checkbox unticked. No push notifications will be sent to support workers when shifts are updated.
+- To **enable notifications**, tick the checkbox. Support workers will then be notified of any roster changes.
+
+**Note:** Enabling push notifications is recommended to ensure support workers always have the most current schedule information.
+
+![Scheduling Notifications Enable 2 Pn](/images/scheduling-notifications-enable-2.png)
+
+### Enabling Notifications for not Clocking In or Out of a Support
+
+Within the push notification settings section of Astalty's Scheduling settings page, if you have Push Notifications 'Enabled' you can also toggle whether you can send push notifications for users who have not clocked in, or out of their supports.
+
+![Scheduling Notifications Clocking Pn](/images/scheduling-notifications-clocking.png)
+
+You can;
+
+- Toggle the Clock Reminder Notification by clicking the check box
+- Set the tolerance for the notification to be sent i.e. 5 minutes after the support starts, and 5 minutes after the support ends
+
+#### Support Worker Notification
+
+When switched on, the staff member will receive a push notification for missed a clock in/out. They can select and it will navigate them to the shift that they need to action.
+
+<Columns cols={2}>
+  <Card icon="sparkles">
+    ![Scheduling Notifications Clocking 4 Pn](/images/scheduling-notifications-clocking-4.png)
+  </Card>
+  <Card icon="sparkles">
+    ![Scheduling Notifications Clocking 3 Pn](/images/scheduling-notifications-clocking-3.png)
+  </Card>
+</Columns>
+
+## Shift Auto Approval
+
+### Overview
+
+The **Shift Auto Approval** setting controls whether shifts and travel must be approved manually or if they can be approved automatically within certain tolerances. This helps reduce admin time while still giving you control over exceptions.
+
+![Scheduling Shift Auto Approval Pn](/images/scheduling-shift-auto-approval.png)
+
+### Manual Approval
+
+If **Manual** is selected, **every single shift and travel entry** must be approved manually. Nothing will be approved automatically.
+
+### Automatic Approval
+
+If **Auto** is selected, shifts and travel will be approved automatically **if they fall within the tolerances you set**. Anything **outside** of those tolerances will still require manual approval.
+
+### Shift and Travel Clock In/Out Thresholds
+
+- **Early Window (min)** – How many minutes early a worker can clock in or clock out and still be automatically approved.
+- **Late Window (min)** – How many minutes late a worker can clock in or clock out and still be automatically approved.
+
+Example: If the **early window** is set to _5 minutes_, a worker who clocks in up to 5 minutes early will be approved automatically. If they clock in 10 minutes early, that will require manual approval. You can set different early/late tolerances for clocking **in** and **out**.
+
+### Travel Distance Thresholds
+
+- **Min (km)** – The minimum kilometres below the expected or budgeted travel that can be auto-approved.
+- **Max (km)** – The maximum kilometres above the expected or budgeted travel that can be auto-approved.
+
+\*\*Example: \*\*If a trip is budgeted for _20 km_ and you set a **max tolerance of 10 km**, then claims up to _30 km_ will be auto-approved. Anything above 30 km will require manual approval.
+
+### Scheduling Settings Overview 
+
+The following video provides an overview of the Scheduling Settings. 
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/1118426378?h=2efbbd9808" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen />
