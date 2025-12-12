@@ -1,0 +1,197 @@
+---
+title: "Xero Integration in Scheduling"
+---
+
+## Overview
+
+Astalty allows you to integrate with your Xero account for the purposes of sending your Timesheet Batches across for processing in Xero. This guide will cover all the steps required by an Admin user to prepare Astalty and Xero for integration.
+
+<Info>
+  **Optional Feature: Scheduling required**
+
+  If you haven't already turned this on, before you can set up your Xero Integration for syncing your Timesheet Batches - you will need to enable **Scheduling** via your [**<u>Optional Features</u>**](https://app.astalty.com.au/settings/optional-features) page in Settings.
+
+  For more on how to enable Optional Features - [**<u>click here</u>**](https://docs.astalty.com.au/guide/settings/optional-features)
+</Info>
+
+## Connecting Xero
+
+Head to the [**Integrations settings page**](https://app.astalty.com.au/settings/integrations) and click _Connect_.
+
+![xero-card.png](/images/xero-card.png)
+
+### **Allow Access**
+
+You will then be asked to allow Astalty to access certain parts of your Xero account - you may need to log in first.
+
+![xero-access-request.png](/images/xero-access-request.png)
+
+Once you have allowed access, if you haven't already - you will need to configure your Payroll settings within your Xero account - see [**Xero Configuration**](https://docs.astalty.com.au/guide/xero-integration-in-scheduling?live-preview=UpJPj1Dcp6OQhe0Q&token=K4NCezZ4c7hRFhMCbScv4MiUFKkAHTMFfssA791l#xero-configuration) below.
+
+## Xero Configuration
+
+You will need to ensure you have a valid Xero configuration in order for the integration to work properly. There is some required configuration that needs to be setup in both Xero and Astalty. This section will cover the required configuration in the Payroll Settings within Xero:
+
+- Pay Frequencies
+- Pay Items
+
+### Pay Frequencies
+
+In Xero, navigate to Payroll Settings where you will require a **Pay Frequency** setup to manage the Pay Period of your Support Workers. If this hasn't been set up, you can select **Add** to create one.
+
+![xero-sched-3.png](/images/xero-sched-3.png)
+
+### Pay Items
+
+In Xero, select the **Pay Items** tab within Payroll Settings. This is where Xero stores all the pay items that can be mapped with the your Astalty Pay Items stored within the selected Pay Groups. If this hasn't been set up, you can select **Add** to create a new Pay Item.
+
+![xero-sched-7.png](/images/xero-sched-7.png)
+
+![xero-sched-24.png](/images/xero-sched-24.png)
+
+### Employees
+
+In Xero, to view the employees that will be available for mapping with the employees (users) in Astalty, navigate to the Employees page via the Payroll menu. If you haven't already setup your Employees in Xero, you can add them by selecting **New employee**.
+
+![xero-sched-20.png](/images/xero-sched-20.png)
+
+## Astalty Configuration
+
+You will need to ensure you have a valid Xero configuration in order for the integration to work properly. There is some required configuration that needs to be setup in both Xero and Astalty. This section will cover the required configuration in Astalty:
+
+- Payroll Platform
+- Payroll Calendar
+- Pay Groups
+- Employees
+
+### Payroll Platform
+
+Begin by assigning **Xero** as your **Payroll Platform** within your [**Scheduling Settings**](https://app.astalty.com.au/settings/scheduling).
+
+![xero-sched-1.png](/images/xero-sched-1.png)
+
+![xero-sched-2.png](/images/xero-sched-2.png)
+
+Select **Update** to save your changes.
+
+### Payroll Calendar
+
+Within Astalty navigate to your [**Xero Integration Overview page**](https://app.astalty.com.au/settings/integrations/xero) and select **Edit**.
+
+![xero-sched-5.png](/images/xero-sched-5.png)
+
+Select the required **Payroll Calendar** (the Pay Frequency setup in Xero), and then **Update** to save your changes.
+
+![xero-sched-4.png](/images/xero-sched-4.png)
+
+<Info>
+  **Payroll Calendar**
+
+  You can only select one Payroll Calendar - If you have different payroll calendars, we would suggest using the Payroll Calendar for your Support Workers.
+</Info>
+
+### Pay Groups
+
+Pay Groups let you organise Pay Items into specific groups. Within Astalty's Xero Integration page navigate to [**Pay Groups**](http://app.astalty.com.au/settings/integrations/xero/pay-groups). If you don't already have a pay group setup, you can create one by selecting **Add Pay Group**
+
+![xero-sched-6.png](/images/xero-sched-6.png)
+
+Give the Group an appropriate **Pay Group Name**, and select **Create Pay Group**.
+
+![xero-sched-22.png](/images/xero-sched-22.png)
+
+Use the **3 dot menu** of the Pay Group you just created to select **Edit Pay Item Mapping**.
+
+![xero-sched-23.png](/images/xero-sched-23.png)
+
+Here you can begin mapping the Pay Items with the Pay rates from Xero.
+
+![xero-sched-9.png](/images/xero-sched-9.png)
+
+If you need to make any changes to any other existing Pay Groups, use the **3 dot menu** if you need to **Edit Pay Group** or **Edit Pay Item Mapping**.
+
+![xero-sched-8.png](/images/xero-sched-8.png)
+
+Pay Groups can also be deleted, providing they unused (not assigned to any users as a pay group).
+
+### Employees
+
+Within Astalty's Xero Integration page navigate to [**Employees**](http://app.astalty.com.au/settings/integrations/xero/employees). Here you will find a list of employees that are either currently **Linked** or **Not Linked **to Xero. To ensure the integration works correctly, you will need to map out the employees between Astalty and Xero.
+
+To map any employees (users) that are not currently linked to their Xero employee yet, view the list by selecting the Xero Employee filter for **Not Linked**, and select the employee (user) to edit.
+
+![xero-sched-11.png](/images/xero-sched-11.png)
+
+Then select the matching employee from the drop down that is populated from Xero, and then **Update** to save your change.
+
+![xero-sched-13.png](/images/xero-sched-13.png)
+
+Once the employees are linked, they'll appear within the Linked list. If required, you can edit the linked Xero employee, by selecting a Linked employee (user) from the list.
+
+![xero-sched-10.png](/images/xero-sched-10.png)
+
+#### Missing Employees
+
+If the employee is missing from the Xero Employee dropdown, you will need to ensure they are setup in Xero as an Employee.
+
+![xero-sched-19.png](/images/xero-sched-19.png)
+
+![xero-sched-21.png](/images/xero-sched-21.png)
+
+If an employee cannot be found in either Linked or Not Linked, you will need to ensure the user is setup in Astalty with their own User Profile - within [**Users**](https://app.astalty.com.au/users).
+
+## Syncing Timesheet Batches to Xero
+
+When generating your Timesheet Batch to sync with Xero, the dates must match the next Pay Frequency date range that Xero hasn't processed yet. When creating your Timesheet Batch, Astalty will display a helpful warning advising the date range of your next Xero Payroll Period.
+
+![xero-payroll-period.png](/images/xero-payroll-period.png)
+
+Once you have generated your Timesheet Batch, use the **Actions** button to select **Export Timesheet for Xero**. See our [**Timesheet Batches guide**](https://docs.astalty.com.au/guide/scheduling/timesheet-batches) for more information on how to create these.
+
+![xero-sched-14.png](/images/xero-sched-14.png)
+
+When you're ready to sync the Timesheets batch with Xero, select **Validate**.
+
+![xero-sched-15.png](/images/xero-sched-15.png)
+
+After Validating, the export will display below within **Export Results**. If it was successfully synced with your Xero account, the Export will display as '**Completed**'
+
+![xero-sched-16.png](/images/xero-sched-16.png)
+
+The newly synced Timesheets will appear in Xero with the Timesheet Status of **Draft**, ready for processing in Xero.
+
+![xero-sched-17.png](/images/xero-sched-17.png)
+
+## Errors When Syncing Timesheets
+
+Astalty will identify errors that occur during the syncing process when you attempt to Validate a Timesheet Batch.
+
+### Timesheet already exists
+
+If you have already synced an existing batch to Xero, Astalty will prevent the batch from syncing and will provide you with a Failed message.
+
+![xero-sched-18.png](/images/xero-sched-18.png)
+
+### Incorrect Timesheet Batch Dates
+
+When generating your Timesheet Batch to sync with Xero, if the batch dates do not match the next Xero payroll period (next payroll period that Xero hasn't processed yet) - Astalty will advise you that it cannot be synced. This is a limitation of Xero as it cannot process multiple batches for the same pay period and nor can it process batches where its not the exact date range (e.g. overlaps two xero payroll periods).
+
+If you need to process missed timesheets that occured in a previous period, these will need to be manually exported from Astalty and then manually inputted and processed within Xero.
+
+![xero-sched-27.png](/images/xero-sched-27.png)
+
+### Missing Users
+
+If you attempt to sync a batch that contains users who are not linked to employees in Xero, the sync will fail. You will need to link these employees before rerunning the sync.
+
+![xero-sched-25.png](/images/xero-sched-25.png)
+
+Clicking on the Wrench Icon will navigate you to Employee page to fix the issue.
+
+![xero-sched-26.png](/images/xero-sched-26.png)
+
+### No Employment Contract Error
+
+If you attempt to sync a batch that contains users who do not have an employment contract in Astalty, the sync will fail. You will need to assign the employee with an employment contract before rerunning the sync.
+
+![no-employment-contract.png](/images/no-employment-contract.png)
