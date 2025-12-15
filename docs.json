@@ -48,7 +48,14 @@
               "guide/scheduling/xero-integration-in-scheduling"
              
             ]
-              }
+              },
+              {
+                "group": "Managing Supports and Shifts",
+                "pages": [
+              "guide/scheduling/viewing-the-schedule"
+              
+              
+              ]}
             ]
           },
           {
