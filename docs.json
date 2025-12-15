@@ -31,6 +31,9 @@
           {
             "group": "Scheduling",
             "pages": [
+              {
+                "group": "Scheduling Setup",
+                "pages":  [
               "guide/scheduling/creating-a-service",
               "guide/scheduling/creating-updating-charge-item-sets",
               "guide/scheduling/scheduling-settings",
@@ -44,6 +47,8 @@
               "guide/scheduling/making-records-visible-to-support-workers",
               "guide/scheduling/xero-integration-in-scheduling"
              
+            ]
+              }
             ]
           },
           {
