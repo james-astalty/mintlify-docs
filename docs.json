@@ -29,10 +29,10 @@
             ]
           },
           {
-            "group": "Customization",
+            "group": "Scheduling",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "scheduling/scheduling-settings"
+             
             ]
           },
           {
