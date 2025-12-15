@@ -90,6 +90,19 @@
                   
                   
                 ]
+              },
+              {
+                "group": "Scheduling FAQ",
+                "pages": [
+                  "guide/scheduling/creating-a-sleepover-or-active-overnight-support",
+                  "guide/scheduling/adding-centre-capital-costs",
+                  "guide/scheduling/how-do-i-charge-for-travel-in-company-vehicles",
+                  "guide/scheduling/how-to-claim-for-respite",
+                  "guide/scheduling/enabling-a-team-member-to-be-scheduled-on-supports",
+                  "guide/scheduling/enabling-a-user-to-be-included-in-timesheet-exports",
+                  "guide/scheduling/how-to-roster-a-sleepover-support",
+                  "guide/scheduling/schads-interpretations-in-astalty"
+                ]
               }
             ]
           },
