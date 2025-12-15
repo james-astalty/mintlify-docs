@@ -31,7 +31,18 @@
           {
             "group": "Scheduling",
             "pages": [
-              "guide/scheduling/scheduling-settings"
+              "guide/scheduling/creating-a-service",
+              "guide/scheduling/creating-updating-charge-item-sets",
+              "guide/scheduling/scheduling-settings",
+              "guide/scheduling/cancellation-reasons",
+              "guide/scheduling/inviting-a-support-worker",
+              "guide/scheduling/enabling-a-user-to-be-scheduled-on-supports",
+              "guide/scheduling/staff-contracted-hours",
+              "guide/scheduling/support-worker-case-note-templates",
+              "guide/scheduling/public-holidays",
+              "guide/scheduling/information-items-visibility-toggle-to-support-workers",
+              "guide/scheduling/making-records-visible-to-support-workers",
+              "guide/scheduling/xero-integration-in-scheduling"
              
             ]
           },
