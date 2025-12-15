@@ -51,6 +51,7 @@
               },
               {
                 "group": "Managing Supports and Shifts",
+                "pages": ["guide/scheduling/scheduling-overview"],
                 "pages": [
               "guide/scheduling/viewing-the-schedule",
               "guide/scheduling/adding-a-11-shift",
