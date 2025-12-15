@@ -52,7 +52,13 @@
               {
                 "group": "Managing Supports and Shifts",
                 "pages": [
-              "guide/scheduling/viewing-the-schedule"
+              "guide/scheduling/viewing-the-schedule",
+              "guide/scheduling/adding-a-11-shift",
+              "guide/scheduling/adding-a-group-shift",
+              "guide/scheduling/additional-charges",
+              "guide/scheduling/adding-a-shift-internal-or-nonsupport",
+              "guide/scheduling/published-and-unpublished-shifts",
+              ""
               
               
               ]}
