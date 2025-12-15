@@ -77,7 +77,17 @@
               {
                 "group": "Support Worker App",
                 "pages": [
-                  "guide/scheduling/support-worker-app-video-overview"
+                  "guide/scheduling/support-worker-app-video-overview",
+                  "guide/scheduling/participant-details-app-view",
+                  "guide/scheduling/clocking-in-and-out-of-a-shift",
+                  "guide/scheduling/record-travel-during-a-shift",
+                  "guide/scheduling/availability-requests",
+                  "guide/scheduling/viewing-your-schedule-in-the-support-worker-app",
+                  "guide/scheduling/incomplete-shifts",
+                  "guide/scheduling/case-noting-in-the-app",
+                  "guide/scheduling/diagnosing-app-issues",
+                  "guide/scheduling/support-worker-app-grid"
+                  
                   
                 ]
               }
