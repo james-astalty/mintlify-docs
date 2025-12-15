@@ -69,10 +69,25 @@
               "guide/scheduling/shift-approvals",
               "guide/scheduling/participant-preferences",
               "guide/scheduling/viewing-a-participants-schedule",
-              "guide/scheduling/support-audit-log"
+              "guide/scheduling/support-audit-log",
+              "guide/scheduling/timesheet-batches"
               
               
-              ]}
+                ]},
+              {
+                "group": "Support Worker App",
+                "pages": [
+                  "guide/scheduling/support-worker-app-video-overview"
+                  
+                ]
+              }
+            ]
+          },
+          {
+            "group":"Participants",
+            "pages": [
+              
+              "guide/participants/archiving-restoring-participants"
             ]
           },
           {
