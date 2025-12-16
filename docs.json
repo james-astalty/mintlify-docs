@@ -121,7 +121,8 @@
                 "pages": [
                   "guide/tasks/customising-your-task-board-view",
                   "guide/tasks/creating-tasks",
-                  "guide/tasks/"
+                  "guide/tasks/deleting-tasks",
+                  "guide/tasks/task-workflow"
                 ]
               }
             ]
