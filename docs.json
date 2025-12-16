@@ -124,6 +124,31 @@
                   "guide/tasks/deleting-tasks",
                   "guide/tasks/task-workflow"
                 ]
+              },
+              {
+                "group": "Outstanding Tasks",
+                "pages": [
+                  "guide/tasks/outstanding-tasks"
+                ]
+              },
+              {
+                "group": "Task View",
+                "pages": [
+                  "guide/tasks/task-view",
+                  "guide/tasks/assigning-and-reassigning-tasks",
+                  "guide/tasks/adding-notes",
+                  "guide/tasks/charges-finance-tab",
+                  "guide/tasks/charge-override",
+                  "guide/tasks/task-documents",
+                  "guide/tasks/assigning-goals-to-tasks"
+                ]
+              },
+              {
+                "group": "Tasks FAQs",
+                "pages": [
+                  "guide/tasks/task-faq"
+                ]
+              
               }
             ]
           },
