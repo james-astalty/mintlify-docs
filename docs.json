@@ -52,7 +52,6 @@
               {
                 "group": "Managing Supports and Shifts",
                 "pages": [
-              "guide/scheduling/scheduling-overview",
               "guide/scheduling/viewing-the-schedule",
               "guide/scheduling/adding-a-11-shift",
               "guide/scheduling/adding-a-group-shift",
@@ -112,6 +111,19 @@
             "pages": [
               
               "guide/participants/archiving-restoring-participants"
+            ]
+          },
+          {
+            "group": "Tasks",
+            "pages": [
+              {
+                "group": "Task Board",
+                "pages": [
+                  "guide/tasks/customising-your-task-board-view",
+                  "guide/tasks/creating-tasks",
+                  "guide/tasks/"
+                ]
+              }
             ]
           },
           {
