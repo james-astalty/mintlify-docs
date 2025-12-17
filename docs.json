@@ -151,13 +151,8 @@
                   "guide/tasks/assigning-goals-to-tasks"
                 ]
               },
-              {
-                "group": "Tasks FAQs",
-                "pages": [
-                  "guide/tasks/task-faq"
-                ]
-              
-              }
+              "guide/tasks/task-faq"
+                
             ]
           },
           {
