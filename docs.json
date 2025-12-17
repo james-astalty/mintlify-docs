@@ -111,7 +111,14 @@
             "pages": [
               "guide/participants/creating-participants",
               "guide/participants/archiving-restoring-participants",
-              "guide/participants/primary-vs-service-coordinators"
+              "guide/participants/primary-vs-service-coordinators",
+              {
+                "group": "Profile",
+                "pages": [
+                  "guide/participants/profile",
+                  "guide/participants/participant-tags"
+                ]
+              }
               
             ]
           },
