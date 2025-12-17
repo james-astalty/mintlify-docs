@@ -109,8 +109,10 @@
           {
             "group":"Participants",
             "pages": [
+              "guide/participants/creating-participants",
+              "guide/participants/archiving-restoring-participants",
+              "guide/participants/primary-vs-service-coordinators"
               
-              "guide/participants/archiving-restoring-participants"
             ]
           },
           {
