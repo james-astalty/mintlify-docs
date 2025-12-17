@@ -116,11 +116,49 @@
                 "group": "Profile",
                 "pages": [
                   "guide/participants/profile",
-                  "guide/participants/participant-tags",
-                  "guide/participants/participant-alerts",
-                  "guide/participants/information-items"
+                  "guide/participants/profile/participant-tags",
+                  "guide/participants/profile/participant-alerts",
+                  "guide/participants/profile/information-items"
                 ]
-              }
+              },
+              {
+                "group": "Participant Directory",
+                "pages": [
+                  "guide/participants/participant-directory",
+                  "guide/participants/participant-directory/contacts"
+                ]
+              },
+              "guide/participants/participant-records",
+              "guide/participants/documents",
+              "guide/participants/goals",
+              "guide/participants/financial",
+              {
+                "group": "NDIS Plan",
+                "pages": [
+                  "guide/participants/ndis-plan",
+                  "guide/scheduling/creating-a-service",
+                  "guide/participants/ndis-plan/services-faqs",
+                  "guide/participants/ndis-plan/funding-periods",
+                  "guide/participants/ndis-plan/updating-the-management-type-of-a-participant",
+                  "guide/participants/ndis-plan/budgets-implementations"
+                ]
+              },
+              "guide/participants/utilisation",
+              "guide/participants/budgets",
+              "guide/participants/tasks",
+              "guide/participants/notes",
+              {
+                "group": "Templates",
+                "pages": [
+                  "guide/participants/templates",
+                  "guide/participants/templates/custom-templates",
+                  "guide/participants/templates/ndis_templates",
+                  "guide/participants/templates/service=agreement-workflow"
+                ]
+              },
+              "guide/participants/forms",
+              "guide/participants/risks",
+              "guide/participants/more-option"
               
             ]
           },
