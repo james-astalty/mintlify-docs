@@ -2,19 +2,141 @@
 title: "Funding Periods"
 ---
 
-## **Overview**
+## Overview
 
 Astalty supports adding services for an NDIS Plan that has funding periods associated with it. For more information about funding periods, please [**visit the NDIS website**](https://ndis.gov.au/changes-ndis-legislation/frequently-asked-questions-about-legislation#funding). This feature is available for all funding types this includes NDIA, Plan, and Self Managed participants.
 
-## **Video Walkthrough**
+## Video Walkthrough
 
 For a detailed walkthrough about how to manage funding periods and view utilisation data, please view the video below.
 
-<iframe
-  src="https://player.vimeo.com/video/1087690320"
-  width="100%"
-  height="480"
-  frameBorder="0"
-  allow="autoplay; fullscreen; picture-in-picture"
-  allowFullScreen
-></iframe>
+<iframe src="https://player.vimeo.com/video/1087690320" width="100%" height="480" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen />
+
+## How to add funding periods
+
+### Create a NDIS Plan
+
+The first step is to create an NDIS plan within a Participant's profile - it's important to ensure the "Is this a PACE plan" checkbox has been selected.
+
+![Funding Periods Create Plan 1](/images/funding-periods-create-plan-1.png)
+
+### Create a Service
+
+Once the NDIS Plan has been created, navigate into the plan from the Participant's profile and click "Add a Service".
+
+![Periods Create Service](/images/periods-create-service.png)
+
+### Create a Service
+
+When creating the Service, ensure you click "This service has a funding schedule".
+
+<Info>
+  **What to do if the funding period checkbox isn't visible**
+
+  If the funding period checkbox isn't visible, it means you have not checked the "Is this a PACE plan" checkbox within the NDIS Plan edit screen. Please edit the NDIS plan and select this option to see the funding period option within the service.
+</Info>
+
+![Funding Periods Checkbox](/images/funding-periods-checkbox.png)
+
+Once you have checked this box, you'll be prompted to add the number of periods within the NDIS plan.
+
+![Periods Number](/images/periods-number.png)
+
+Astalty will create the periods with the default dates and amounts, however you are free to customise these if you need to.
+
+![Funding Periods 1](/images/funding-periods-1.png)
+
+To streamline your workflow, you can copy a single value to all subsequent Funding Periods when a plan includes varying amounts. This is especially useful for plans with many Funding Periods (such as monthly) where the first Funding Period has a differing amount to the remaining periods. To do this, enter the amount in the relevant period, and then click on the **copy** icon to apply this amount to the remaining periods.
+
+![Funding Periods 2](/images/funding-periods-2.png)
+
+## Reconciling Funding Periods to Account for Utilised Funds
+
+To account for utilised funding prior to creating the funding period service within Astalty you can use the 'Reconcile' option within the service. When reconciling a funding period service, one of the most important points to clarify is the **reconciliation date**.
+
+- The reconciliation date determines which funding period you are reconciling.
+- The reconciliation remaining amount reflects the funds that have been released up to that date.
+
+![Funding Reconciliation](/images/funding-reconciliation.png)
+
+### Example
+
+Let’s say:
+
+- The total service budget is **\$1,000**.
+- The plan runs across four funding periods.
+- By funding period three, a total of **\$750** has been released.
+- You have already used **\$150** of the participant’s funding.
+
+That means:
+
+- The released funds up to period three is **\$750**.
+- Remaining funds = **\$750 - \$150 = \$600**.
+- Therefore, you would record **\$600 remaining** in the participant’s budget.
+
+![Funding Periods Amount](/images/funding-periods-amount.png)
+
+The utilisation would then reflect this update as seen below.
+
+![Reconciliation Utilisation](/images/reconciliation-utilisation.png)
+
+When adding an amount that exceeds the released funding you will get an error message as seen below and you will not be able to save the funding period reconciliation. This ensures that you cannot exceed the amount allocated within the funding period you are in.
+
+![Funding Period Error](/images/funding-period-error.png)
+
+You cannot set the reconciliation date to a future date for the same reason. Notice the 'Greyed' out option in the screenshot below for all future dates.
+
+![Future Date Funding Period](/images/future-date-funding-period.png)
+
+## Viewing Funding Periods
+
+Once the NDIS plan and funding periods have been created by following the steps above, you can review the funding periods at any time within the Service.
+
+![Periods Schedule](/images/periods-schedule.png)
+
+## Utilisation within Participant's page
+
+Within the Participant's profile, you can click "Utilisation" in the sidebar and you'll notice a new chart which is slightly different than the old chart for existing NDIS plans.
+
+![Periods Utilisation Profile](/images/periods-utilisation-profile.png)
+
+The chart includes:
+
+- the start date for each period under the bar chart
+- white sections for unreleased funding from future periods
+- light blue sections for released funds that are available
+- dark blue sections for funds that have been spent
+
+## Utilisation within the Task
+
+Within any Task, you will be able to view the utilisation data for the Participant. The sidebar will only show the utilisation data for the current period, however if you hover over this, you will be able to see the full chart for all periods like you would on their profile.
+
+![Periods Utilisation Task](/images/periods-utilisation-task.png)
+
+## Utilisation Report
+
+To view the utilisation for all Participants, head to the [**Utilisation Report page**](https://app.astalty.com.au/reports/participants/utilisation). Within this page, when you click the down arrow to the left of a Participant you will be shown the new Utilisation chart for the funding periods.
+
+![Periods Util Report New](/images/periods-util-report-new.png)
+
+You'll also notice that old plans without funding periods display using the old layout.
+
+![Periods Util Report Both](/images/periods-util-report-both.png)
+
+## FAQs
+
+### I've already added an NDIS plan service before funding periods were supported by Astalty - what do I do?
+
+Unfortunately you will need to delete the existing service and add it again by following the steps above.
+
+### How will Utilisation Notifications work?
+
+Utilisation and Utilisation Variance notifications will continue to work as normal based on the funding period. For example if you have a Utilisation Notification set up to notify you when 80% of funds are spent, you will now be notified when 80% of funds available in any single period have been spent.
+
+### Does Astalty handle funds rolling over from previous periods?
+
+Yes - Astalty will automatically take into account unspent funds from previous periods when calculating available funding.
+
+### I don't understand the new utilisation graph.
+
+Please watch the video walkthrough at the top of this page or email [support@astalty.com.au](mailto:support@astalty.com.au) for additional support.
