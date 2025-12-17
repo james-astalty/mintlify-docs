@@ -116,9 +116,9 @@
                 "group": "Profile",
                 "pages": [
                   "guide/participants/profile",
-                  "guide/participants/profile/participant-tags",
-                  "guide/participants/profile/participant-alerts",
-                  "guide/participants/rpfile/information-items"
+                  "guide/participants/participant-tags",
+                  "guide/participants/participant-alerts",
+                  "guide/participants/information-items"
                 ]
               }
               
