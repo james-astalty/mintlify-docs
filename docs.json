@@ -134,12 +134,11 @@
                   "guide/tasks/task-workflow"
                 ]
               },
-              {
-                "group":"Outstanding Tasks",
-                "pages": [
-                  "guide/tasks/outstanding-tasks"
-                ]
-              },
+              
+                
+                "guide/tasks/outstanding-tasks"
+                
+              ,
               {
                 "group": "Task View",
                 "pages": [
