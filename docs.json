@@ -153,7 +153,7 @@
                   "guide/participants/templates",
                   "guide/participants/templates/custom-templates",
                   "guide/participants/templates/ndis_templates",
-                  "guide/participants/templates/service=agreement-workflow"
+                  "guide/participants/templates/service-agreement-workflow"
                 ]
               },
               "guide/participants/forms",
