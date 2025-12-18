@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Astalty User Guide",
   "colors": {
     "primary": "#1570EF",
     "light": "#0ea4e9",
