@@ -32,6 +32,12 @@
             "group": "Scheduling",
             "pages": [
               {
+                "group": "Workflows",
+                "pages": [
+                  "guide/scheduling/workflows/publishing-shifts"
+                ]
+              },
+              {
                 "group": "Scheduling Setup",
                 "pages":  [
               "guide/scheduling/creating-a-service",
