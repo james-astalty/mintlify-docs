@@ -285,16 +285,5 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
-  },
-  {
-  "tab": "Videos",
-  "groups": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "videos/creating-and-updating-charge-items"
-      ]
-    }
-  ]
-}
+  }
 }
